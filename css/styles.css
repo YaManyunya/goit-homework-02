@@ -2,6 +2,12 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
 }
+.list {
+  list-style: none; /*убирає маркер в списку*/
+}
+.link {
+  text-decoration: none;
+}
 /*.header {
 }
 .header-navigation {
@@ -18,6 +24,8 @@ body {
 .header-logo-color {
   color: #4d5ae5;
 }
+.header-list {
+}
 .header-link {
   font-weight: 500;
   font-size: 16px;
@@ -31,4 +39,26 @@ body {
   line-height: 1.33;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.main-nav {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+}
+.main-nav-button {
+  width: 116px;
+  height: 48px;
+  background: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  color: #4d5ae5;
+}
+.main-nav-button:hover {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.main-nav-button:focus {
+  color: #ffffff;
+  background-color: #404bbf;
 }
