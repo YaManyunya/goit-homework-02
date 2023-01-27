@@ -1,5 +1,23 @@
-body{
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.header {
+}
+.header-navigation {
+}
+.header-logo {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2E2F42;
+}
+.header-logo-color {
+  color: #4d5ae5;
+}
+.header-link {
+}
+.header-contact {
 }
