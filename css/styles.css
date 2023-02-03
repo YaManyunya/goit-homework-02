@@ -93,8 +93,18 @@ body {
 .main-hero-title-button:focus {
   color: var(--pressed-state-color);
 }
-.head-hide {
-  display: none;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .btn-list {
   background: var(--light-color);
@@ -129,10 +139,19 @@ body {
   letter-spacing: 0.02em;
   color: var(--dark-color);
 }
+.main-list-two-head {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
 .main-nav-group {
   font-weight: 400;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--text-color);
 }
 .footer {
   background: var(--dark-color);
@@ -160,6 +179,42 @@ body {
 .button-all {
   cursor: pointer;
 }
+.main-First-section-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+.main-First-section-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+.main-second-section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark-color);
+}
+.main-second-list {
+  box-sizing: border-box;
+  width: 360px;
+  height: 300px;
+  background: linear-gradient(
+      0deg,
+      rgba(77, 90, 229, 0.1),
+      rgba(77, 90, 229, 0.1)
+    ),
+    url(2368);
+  background-blend-mode: soft-light, normal;
+  border: 1px solid var(--accent-color);
+}
 .main-third-section-list {
   background: var(--body-background-color);
 }
@@ -173,7 +228,9 @@ body {
 }
 .main-third-section-list-text {
   font-weight: 400;
+  font-size: 16px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
+  color: var(--text-color);
 }
